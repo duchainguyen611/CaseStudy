@@ -2,15 +2,15 @@ class Pipes {
     constructor(cX,cY,space){
         this.cX = cX;
         this.cY = cY;
-        this.cW = 90;
-        this.cH = 495;
+        this.cW = 110;
+        this.cH = 700;
         this.space = space;
-        this.sXa = 55;
+        this.sXa = 54;
         this.sYa = 320;
-        this.sXu = 85;
+        this.sXu = 83;
         this.sYu = 320;
-        this.sW = 30;
-        this.sH = 165;
+        this.sW = 29;
+        this.sH = 163;
         this.dx = -2;
     }
 

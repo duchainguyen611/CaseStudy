@@ -1,4 +1,11 @@
 .canvas{
     border: 5px solid black;
-    
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body{
+    background-image: url(./image/bgweb.jpg);
 }
