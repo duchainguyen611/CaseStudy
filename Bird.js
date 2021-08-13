@@ -62,6 +62,9 @@ class Bird {
             this.cY + this.cH > arrFireball[0].cY + 38 && this.cY +20 < arrFireball[0].cY + arrFireball[0].cH -38){
                 drawBonk(this.cX,this.cY);
                 game = 'end';
+                endGame.draw();
+                result();
+                medal.draw();
             } 
         
         //ăn điểm
