@@ -7,5 +7,9 @@
     display: block;
 }
 body{
-    background-image: url(./image/bgweb.jpg);
+    background-image: url(./image/bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
 }
+

@@ -55,6 +55,7 @@ class Bird {
             (this.cY < arrPipes[0].cY + arrPipes[0].cH -20 || this.cY + this.cH > arrPipes[0].cY + arrPipes[0].cH + arrPipes[0].space +10 ))
         {
             game = 'end';
+            
         }
 
         //va chạm quả cầu lửa
@@ -63,6 +64,8 @@ class Bird {
                 drawBonk(this.cX,this.cY);
                 game = 'end';
                 endGame.draw();
+                result();
+                medal.draw();
             } 
         
         //ăn điểm
