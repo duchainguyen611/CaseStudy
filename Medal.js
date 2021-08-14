@@ -19,9 +19,9 @@ class Medal {
     update(){
         if(score.value == 0){
             this.i = 2;
-        }else if(score.value >= maxScore.value){
+        }else if(score.value >= 5){
             this.i = 1;
-        }else if(score.value >0 && score.value < maxScore){
+        }else if(score.value <5){
             this.i = 0;
         }else{
             this.i = 2;
